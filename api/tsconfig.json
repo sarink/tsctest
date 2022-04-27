@@ -2,10 +2,12 @@
   "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
+    "rootDir": "../",
     "outDir": "dist",
     "paths": {
       "#api/*": ["./*"],
       "#common/*": ["../common/*"]
     }
-  }
+  },
+  "files": ["../common/@types/assets.d.ts"]
 }
