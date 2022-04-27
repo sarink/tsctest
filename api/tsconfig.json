@@ -8,5 +8,6 @@
       "#api/*": ["./*"],
       "#common/*": ["../common/*"]
     }
-  }
+  },
+  "files": ["../common/@types/assets.d.ts"]
 }
