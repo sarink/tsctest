@@ -1,7 +1,16 @@
 # tsctest
 
+Setup
+
 ```
 nvm install
 npm install
-npm run build
 ```
+
+Reproduce, notice that this does not error
+
+```
+npm run typecheck:api
+```
+
+Yet, it does in vscode :(
