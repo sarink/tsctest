@@ -5,8 +5,8 @@
     "rootDir": "../",
     "outDir": "dist",
     "paths": {
-      "#api/*": ["./*"],
-      "#common/*": ["../common/*"]
+      "#common/*": ["../common/*"],
+      "#api/*": ["./*"]
     }
   }
 }
