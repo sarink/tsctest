@@ -1,4 +1,3 @@
-import './aliases';
 import { foo } from '#common/foo';
 import footxt from '#common/foo.txt';
 
