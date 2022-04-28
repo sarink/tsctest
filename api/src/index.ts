@@ -1,6 +1,5 @@
-import './aliases';
 import { foo } from '#common/foo';
-import { bar } from '#api/src/bar';
+import footxt from '#common/foo.txt';
 
 console.log('foo', foo);
-console.log('bar', bar);
+console.log('footxt', footxt);
